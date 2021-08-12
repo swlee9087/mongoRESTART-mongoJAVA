@@ -13,23 +13,23 @@ import org.springframework.test.context.junit4.SpringRunner;
 import static org.mockito.BDDMockito.given;
 import static org.assertj.core.api.Assertions.assertThat;
 
-import static org.junit.jupiter.api.Assertions.*;
-@SpringBootTest
-@RunWith(SpringRunner.class)
-class CalServiceImplTest {
-//    @Mock CalServiceImpl calService;
-//    @BeforeEach
-//    void setUp() {
-//        calService = new CalServiceImpl();  //red ln bc "final" repos ln in servimpl, hence @MockBean
+//import static org.junit.jupiter.api.Assertions.*;
+//@SpringBootTest
+//@RunWith(SpringRunner.class)
+//class CalServiceImplTest {
+////    @Mock CalServiceImpl calService;
+////    @BeforeEach
+////    void setUp() {
+////        calService = new CalServiceImpl();  //red ln bc "final" repos ln in servimpl, hence @MockBean
+////    }
+//    @MockBean
+//    CalServiceImpl calService;
+//
+//    @Test
+//    void createRandomNumber() {
+////        int random = calService.createRandomNumber();
+////        System.out.println(random);
+//        given(calService.createRandomNumber()).willReturn(30);
+//        assertThat(calService.createRandomNumber()).isEqualTo(30);
 //    }
-    @MockBean
-    CalServiceImpl calService;
-
-    @Test
-    void createRandomNumber() {
-//        int random = calService.createRandomNumber();
-//        System.out.println(random);
-        given(calService.createRandomNumber()).willReturn(30);
-        assertThat(calService.createRandomNumber()).isEqualTo(30);
-    }
-}
+//}
